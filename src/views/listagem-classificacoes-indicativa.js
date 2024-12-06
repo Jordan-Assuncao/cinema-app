@@ -7,10 +7,7 @@ import { IconButton } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 
-
-
-
-function ListagemGeneros(){
+function ListagemClassificacaoIndicativa(){
     const navigate = useNavigate();
 
     const [dados, setDados] = useState([]);
@@ -65,6 +62,8 @@ function ListagemGeneros(){
           </Card>
         </div>
       );
-    }
+    }    
 
-export default ListagemGeneros;
+
+
+export default ListagemClassificacaoIndicativa;

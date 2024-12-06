@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
-import { mensagemSucesso, mensagemErro } from '../components/toastr';
+import { useNavigate, useParams } from 'react-router-dom';import { mensagemSucesso, mensagemErro } from '../components/toastr';
 import Card from '../components/card';
 import Stack from '@mui/material/Stack';
 import { IconButton } from '@mui/material';
@@ -8,9 +7,8 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 
 
-
-
-function ListagemGeneros(){
+function ListagemSala(){
+    
     const navigate = useNavigate();
 
     const [dados, setDados] = useState([]);
@@ -67,4 +65,5 @@ function ListagemGeneros(){
       );
     }
 
-export default ListagemGeneros;
+
+export default ListagemSala;
